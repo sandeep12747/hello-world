@@ -19,6 +19,8 @@ public class ControllerServlet extends HttpServlet {
 	    private BookDAO bookDAO;
 	 
 	    public void init() {
+	    	System.out.println("hi");
+	    	
 	       /* String jdbcURL = getServletContext().getInitParameter("jdbcURL");
 	        String jdbcUsername = getServletContext().getInitParameter("jdbcUsername");
 	        String jdbcPassword = getServletContext().getInitParameter("jdbcPassword");
